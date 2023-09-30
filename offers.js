@@ -1,4 +1,4 @@
-const offerButtons = Array.from(document.getElementsByClassName("offer-cta axp-offers__global__fluid___15Bk5 css-1duq00z")).filter(btn => btn.title == "Add to Card");
+const offerButtons = Array.from(document.getElementsByClassName("offer-cta axp-offers__global__merchantOfferCta___qKBIE")).filter(btn => btn.title == "Add to Card");
 for (let idx = 0; idx < offerButtons.length; idx++) {
     console.log("Clicking offer button");
     offerButtons[idx].click();
